@@ -1,12 +1,12 @@
 body {
   background-color: red;
-};
+}
 
-p {
+* {
   color: white;
   text-align: center;
   text-decoration: underline;
   letter-spacing: 8px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 64px;
-};
+}
