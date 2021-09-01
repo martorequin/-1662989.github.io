@@ -4,8 +4,8 @@
   <link rel="stylesheet" href="styles.css">
   <style> 
     div {
-      width: 100px;
-      height: 100px;
+      width: 16px;
+      height: 16px;
       background-color: red;
       position: relative;
       animation-name: example;
@@ -14,11 +14,11 @@
     }
 
     @keyframes example {
-      0%   {background-color:red; left:0px; top:0px;}
-      25%  {background-color:yellow; left:200px; top:0px;}
-      50%  {background-color:blue; left:200px; top:200px;}
-      75%  {background-color:green; left:0px; top:200px;}
-      100% {background-color:red; left:0px; top:0px;}
+      0%   {background-color:red; left:0px; top:0px; width:64;}
+      25%  {background-color:yellow; left:200px; top:0px;width:16;}
+      50%  {background-color:blue; left:200px; top:200px;width:128;}
+      75%  {background-color:green; left:0px; top:200px;width:2;}
+      100% {background-color:red; left:0px; top:0px;width:6;}
     }
 </style>
 </head>
