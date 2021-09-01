@@ -1,6 +1,6 @@
 body {
   background-color: black;
-}
+};
 
 p {
   color: white;
@@ -9,4 +9,4 @@ p {
   letter-spacing: 8px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 64px;
-}
+};
