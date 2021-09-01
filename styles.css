@@ -1,10 +1,15 @@
 body {
   background-color: black;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
  /* The animation code */
 @keyframes example {
-  from {background-color: red;}
+  from {background-color: black;}
   to {background-color: yellow;}
 }
 
@@ -15,11 +20,6 @@ p {
   font-size: 32px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
 }
 
 * {
