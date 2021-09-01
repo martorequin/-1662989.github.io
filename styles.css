@@ -2,12 +2,19 @@ body {
   background-color: black;
 }
 
-* {
+p {
   color: white;
   text-align: center;
   letter-spacing: 12px;
   font-size: 32px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
-  text-overflow: ellipsis;
+}
+
+* {
+  color: grey;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
