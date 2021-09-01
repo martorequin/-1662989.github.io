@@ -3,20 +3,6 @@ body {
 
 }
 
- /* The animation code */
-@keyframes example {
-  from {background-color: black;}
-  to {background-color: yellow;}
-}
-div {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-}
 p {
   color: white;
   text-align: left;
