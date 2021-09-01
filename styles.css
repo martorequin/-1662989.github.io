@@ -10,7 +10,14 @@ p {
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
 }
-
+p:hover{
+  color: red;
+  text-align: left;
+  letter-spacing: 12px;
+  font-size: 38px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
 * {
   color: grey;
   text-align: center;
