@@ -2,6 +2,12 @@ body {
   background-color: black;
 }
 
+ /* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
 p {
   color: white;
   text-align: left;
@@ -9,15 +15,13 @@ p {
   font-size: 32px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-weight: bold;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
-p:hover{
-  color: red;
-  text-align: left;
-  letter-spacing: 12px;
-  font-size: 38px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: bold;
-}
+
 * {
   color: grey;
   text-align: center;
