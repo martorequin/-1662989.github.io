@@ -1,7 +1,12 @@
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 p {
-  color: red;
+  color: white;
+  text-align: center;
+  text-decoration: underline
+  letter-spacing: 8px
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 64px;
 }
