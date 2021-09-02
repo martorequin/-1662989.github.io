@@ -12,6 +12,11 @@ p {
   font-weight: bold;
 }
 
+Hello {
+	font-size: 128px;
+	letter-spacing:32px;
+} 
+
 * {
   color: grey;
   text-align: center;
